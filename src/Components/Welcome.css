@@ -1,0 +1,13 @@
+.render-data h1 {
+  color: greenyellow;
+  text-align: center;
+}
+
+table,
+th,
+tr,
+td {
+  border: 1px solid greenyellow;
+  background-color: #131b28;
+  color: greenyellow;
+}

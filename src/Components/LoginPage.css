@@ -1,0 +1,92 @@
+body {
+  background: url("../Assets/bg-01.jpg") no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+form {
+  background-color: white;
+  width: 500px;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+}
+input[type="email"],
+input[type="password"] {
+  background-color: #f7f7f7;
+  padding: 10px;
+  border: 1px solid #e0dcdc;
+  border-radius: 10px;
+  width: 47%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.forgot_link {
+  font-size: 12px;
+  padding-left: 5px;
+}
+input[type="submit"] {
+  padding: 10px;
+  width: 52%;
+  background-color: #2d2d2d;
+  color: white;
+  border-radius: 10px;
+}
+
+label {
+  float: left;
+  margin-left: 123px;
+}
+
+.logo {
+  width: 25px;
+  padding: 5px;
+}
+
+.facebook_btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: #3f4b90;
+  border-radius: 10px;
+  border: 1px solid #e0dcdc;
+  color: white;
+  padding: 6px 12px;
+  justify-content: center;
+  width: 25%;
+}
+.google_btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #e0dcdc;
+  padding: 6px 12px;
+  justify-content: center;
+  width: 25%;
+}
+.linked_btns {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding-bottom: 10px;
+}
+
+p,
+a {
+  color: grey;
+}
+
+.footer {
+  padding-top: 30px;
+}
+
+.error {
+  color: red;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
